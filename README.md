@@ -6,21 +6,14 @@ Kruskal's algorithm is a minimum-spanning-tree algorithm which finds an edge of 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
 
 # Pseudocode
-
+```
 KRUSKAL(G):
-
 A = ∅
-
 foreach v ∈ G.V:
-
-MAKE-SET(v)
-
+   MAKE-SET(v)
 foreach (u, v) in G.E ordered by weight(u, v), increasing:
-
-   if FIND-SET(u) ≠ FIND-SET(v):
-   
-   A = A ∪ {(u, v)}
-   
-   UNION(FIND-SET(u), FIND-SET(v))
-   
+   if FIND-SET(u) ≠ FIND-SET(v):   
+      A = A ∪ {(u, v)}   
+      UNION(FIND-SET(u), FIND-SET(v))   
    return A
+```
