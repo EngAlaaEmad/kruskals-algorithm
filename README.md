@@ -5,7 +5,7 @@ Kruskal's algorithm is a minimum-spanning-tree algorithm which finds an edge of 
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
 
-# Pseudocode
+### Pseudocode of Kruskal's algorithm
 ```
 KRUSKAL(G):
 A = ∅
